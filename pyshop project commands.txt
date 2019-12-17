@@ -1,0 +1,30 @@
+Step 1: django-admin startproject pyshop
+
+Step 2: cd pyshop
+
+Step 3: python manage.py startapp products
+
+Step 4: create urls.py in products folder
+
+Step 5: import include in urls.py and include products.urls path in pyshop folder
+
+Step 6: create 2 models Product and Offer in models.py
+
+Step 7: python manage.py migrate
+
+Step 8: go to setting and add 'products' in installed apps
+
+Step 9: python manage.py migrations
+
+Step 10: python manage.py migrate
+
+Step 11: python manage.py createsuperuser
+
+username: admin
+password: admin
+
+Step 12: register model in admin.py
+
+Step 13: create templates folder in products app
+
+Step 14: create index.html
